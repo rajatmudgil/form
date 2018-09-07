@@ -1,0 +1,106 @@
+ /* DESIGNED AND CREATED BY -:
+
+     RAJAT MUDGIL
+     9899446742
+     rajatmudgil24@gmail.com
+
+    */
+
+
+body {
+    background : url("../images/form.jpg");
+    background-size : 100% 100%;
+    margin : 0px;
+    font-family :'Lato',sans-serif;
+    background-attachment: fixed;
+}
+* {
+    box-sizing: border-box;
+    color : white;
+}
+#main {
+    background : rgba(0,0,0,0.45);
+    margin : 0px 336px;
+    padding : 40px;
+    /* margin-bottom: 20px; */
+
+}
+input:focus {
+    outline : none;
+}
+header {
+    color : #F5F0F0 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    text-align : center;
+    font-size : 1.3em;
+    letter-spacing: 10px;
+}
+.section_1 {
+    text-align:center;
+    letter-spacing: 4px;
+}
+h3 {
+    letter-spacing: 4px;
+    font-size : 1.4em;
+}
+input:not(.submit) {
+    background-color :transparent;
+    color : white;
+    width : 440px;
+    margin-left : 30px;
+    margin-top : 18px;
+    padding : 12px 13px;
+}
+.asterisk {
+    font-size:24px;
+    color : #CB2121;
+}
+textarea {
+    background-color : transparent;
+    resize : none;
+    margin-top : 20px;
+}
+label {
+    display: inline-block;
+    width : 120%;
+    letter-spacing: 1px;
+}
+label[for="moreinfo"] {
+    letter-spacing: 2.5px;
+}
+.moreinformation {
+    margin-top : 30px;
+}
+input[type="submit"] {
+    margin-top : 51px !important;
+    background-color : #1653b3;
+    padding : 14px 60px;
+    border-color : transparent;
+    border-radius: 1px;
+    margin-left : 32%;
+    font-size : 1em;
+    letter-spacing: 1.5px;
+    cursor :pointer;
+    display: inline-block;
+    padding-bottom : 20px;
+}
+input[placeholder="First Name"],input[placeholder="Enter Your E-mail"],input[placeholder="Phone Number"] {
+    letter-spacing: 2px;
+}
+::-webkit-input-placeholder {
+    color : white;
+}
+footer {
+    letter-spacing: 2px;
+    margin-left : 317px;
+    margin-top : 45px;
+}
+.designer {
+    color : #2860b9;
+}
+textarea:focus {
+    outline: none;
+}
+input[type="submit"] {
+    box-shadow: 10px 10px 10px 0px rgb(22, 21, 21);
+}
